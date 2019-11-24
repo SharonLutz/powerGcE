@@ -13,7 +13,7 @@ For n cases and controls (input: nCases, nControls), the SNP is generated from a
 
 logit\[P(Y=1)\] = &beta;<sub>0</sub> + &beta;<sub>SNP</sub> SNP + &beta;<sub>E</sub> E + &beta;<sub>I</sub> E*SNP 
 
-where &beta;<sub>I</sub> is inputted as a vector of values (input: betaI). Then, the empirical power is calculated based on the proportion of simulations where the p-value for the interaction term is less than the user specified alpha level.
+where &beta;<sub>I</sub> is inputted as a vector of values (input: betaI). Then, the empirical power is calculated based on the proportion of simulations where the p-value for the interaction term in a logistic regression is less than the user specified alpha level.
 
 See the manpage for more detail regarding the input of the powerGcE function.
 
