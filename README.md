@@ -50,4 +50,4 @@ For this example, we get the following matrix and corresponding plot which outpu
 <img src="powerGcE.png" width="500">
 
 ## Notes
-Please note that this is an emperical power analysis.
+Please note that this is an empirical power analysis.
