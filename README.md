@@ -9,7 +9,7 @@ devtools::install_github("SharonLutz/powerGcE")
 ```
 
 ## Input
-For n cases and controls (input: nCases, nControls), the SNP is generated from a binomial distribution with a specified MAF(input: MAF) and the environmental exposure E is generated from a normal distributions with user specified mean and variance (input: meanE, varE). The binary outcome Y is generated from a binomial distribution such that:
+For n cases and controls (input: nCases, nControls), the SNP is generated from a binomial distribution with a specified MAF (input: MAF) and the environmental exposure E is generated from a normal distributions with user specified mean and variance (input: meanE, varE). The binary outcome Y is generated from a binomial distribution such that:
 
 logit\[P(Y=1)\] = &beta;<sub>0</sub> + &beta;<sub>SNP</sub> SNP + &beta;<sub>E</sub> E + &beta;<sub>I</sub> E*SNP 
 
