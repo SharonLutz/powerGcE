@@ -47,7 +47,7 @@ For this example, we get the following matrix and corresponding plot which outpu
 [5,] -0.80 0.908
 [6,] -0.75 0.833
 ```
-<img src="https://github.com/SharonLutz/gxeRC/blob/master/gxeRC.png" width="600">
+<img src="powerGcE.png" width="600">
 
 ## Notes
 Please note that this is an emperical power analysis.
