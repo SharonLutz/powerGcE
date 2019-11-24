@@ -1,0 +1,9 @@
+Package: powerGcE
+Type: Package
+Title: runs the powerGcE function
+Version: 1.0
+Date: 2019-11-23
+Author: Sharon Lutz
+Maintainer: Sharon Lutz <smlutz@hsph.harvard.edu>
+Description: Empirical power analysis for a gene by environment interaction with a binary outcome and a normally distributed environmental exposure.
+License: GPL-2

@@ -1,0 +1,10 @@
+\name{powerGcE-package}
+\alias{powerGcE-package}
+\alias{powerGcE-pkg}
+\docType{package}
+\title{
+\packageTitle{powerGcE}
+}
+\description{
+\packageDescription{powerGcE}
+}
