@@ -13,7 +13,7 @@ For n cases and controls (input: nCases, nControls), the SNP is generated from a
 
 logit\[P(Y=1)\] = &beta;<sub>0</sub> + &beta;<sub>SNP</sub> SNP + &beta;<sub>E</sub> E + &beta;<sub>I</sub> E*SNP 
 
-Then, the empirical power is calculated based on the proportion of simulations where the p-value for the interaction term is less than the user specified alpha level.
+where &beta;<sub>I</sub> is inputted as a vector of values (input: betaI). Then, the empirical power is calculated based on the proportion of simulations where the p-value for the interaction term is less than the user specified alpha level.
 
 See the manpage for more detail regarding the input of the powerGcE function.
 
@@ -27,7 +27,7 @@ For 407 cases and 376 controls, consider a SNP with a MAF of 0.45 and a normally
 
 logit\[P(Y=1)\] = -0.32 + 0.17*SNP + 0.97*E + &beta;<sub>I</sub> E*SNP 
 
-where  &beta;<sub>I</sub varies from -1 to -0.75 by 0.05. The code to run this example is given below.
+where  &beta;<sub>I</sub> varies from -1 to -0.75 by 0.05. The code to run this example is given below.
 
 ```
 library(powerGcE)
