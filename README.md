@@ -31,7 +31,8 @@ where  &beta;<sub>I</sub> varies from -1 to -0.75 by 0.05. The code to run this 
 
 ```
 library(powerGcE)
-powerGcE(nCase=407,nControl=376,MAF=0.49,meanE=0,varE=0.99,beta0=-0.32,betaSNP=0.17,betaE=0.97,betaI=seq(-1,-0.75,by=0.05),nSim=1000,alpha=0.00000005,plot.output=T,plot.name="powerGcE.pdf",seed=1)
+powerGcE(nCase=407,nControl=376,MAF=0.49,meanE=0,varE=0.99,beta0=-0.32,betaSNP=0.17,betaE=0.97,
+betaI=seq(-1,-0.75,by=0.05),nSim=1000,alpha=0.00000005,plot.output=T,plot.name="powerGcE.pdf",seed=1)
 ```
 
 ## Output
