@@ -23,7 +23,7 @@ library(powerGcE)
 ```
 
 ## Example
-For 407 cases and 376 controls, consider a SNP with a MAF of 0.45 and a normally distributed environmental exposure with a mean of 0 and a variance of 0.99. The binary outcome Y is generated such that
+For 407 cases and 376 controls, consider a SNP with a MAF of 0.49 and a normally distributed environmental exposure with a mean of 0 and a variance of 0.99. The binary outcome Y is generated such that
 
 logit\[P(Y=1)\] = -0.32 + 0.17SNP + 0.97E + &beta;<sub>I</sub> E*SNP 
 
