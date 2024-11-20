@@ -1,5 +1,5 @@
 ## powerGcE
-Empirical power analysis for a gene by environment interaction with a binary outcome and a normally distributed environmental exposure.
+Examine the gene by environment interaction with a binary outcome and a normally distributed environmental exposure.
 
 ## Installation
 ```
@@ -13,9 +13,9 @@ For n cases and controls (input: nCases, nControls), the SNP is generated from a
 
 logit\[P(Y=1)\] = &beta;<sub>0</sub> + &beta;<sub>SNP</sub>SNP + &beta;<sub>E</sub>E + &beta;<sub>I</sub> E*SNP 
 
-where &beta;<sub>I</sub> is inputted as a vector of values (input: betaI). Then, the empirical power is calculated based on the proportion of simulations where the p-value for the interaction term in a logistic regression is less than the user specified alpha level.
+where &beta;<sub>I</sub> is inputted as a vector of values (input: betaI). Then, the proportion of simulations where the p-value for the interaction term in a logistic regression is less than the user specified alpha level is calculated.
 
-See the manpage for more detail regarding the input of the powerGcE function.
+See the manpage for more detail regarding the input of the function.
 
 ```
 library(powerGcE)
@@ -36,10 +36,10 @@ betaI=seq(-1,-0.75,by=0.05),nSim=1000,alpha=0.00000005,plot.output=T,plot.name="
 ```
 
 ## Output
-For this example, we get the following matrix and corresponding plot which outputs the  empirical power to detect the SNP by environment interaction on the binary outcome. We can see from the plot below that we have adequate power in this scenario.
+For this example, we get the following matrix and corresponding plot.
 
 ```
-     BetaI power
+     BetaI Proportion
 [1,] -1.00 0.996
 [2,] -0.95 0.996
 [3,] -0.90 0.981
@@ -50,4 +50,4 @@ For this example, we get the following matrix and corresponding plot which outpu
 <img src="powerGcE.png" width="500">
 
 ## Notes
-Please note that this is an empirical power analysis. The MAF, mean, variances, and &beta;s need to be chosen such that there is enough variability for the SNP, the environmental variable E, and the binary outcome Y.
+Please note that the MAF, mean, variances, and &beta;s need to be chosen such that there is enough variability for the SNP, the environmental variable E, and the binary outcome Y.
