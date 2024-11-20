@@ -61,7 +61,7 @@ The SNP is generated from a binomial distribution and the environmental exposure
 Sharon Lutz
 }
 \examples{
-	powerGcE(nCase = 407, nControl = 376, MAF = 0.49, meanE = 0, varE = 0.99, beta0 = -0.32, betaSNP = 0.17, betaE = 0.97, betaI = seq(-1, -0.75, by = 0.05), nSim = 1000, alpha = 5e-08, plot.output = TRUE, plot.name = "powerGcE.pdf", seed = 1)
+	powerGcE(nCase = 407, nControl = 376, MAF = 0.49, meanE = 0, varE = 0.99, beta0 = -0.32, betaSNP = 0.17, betaE = 0.97, betaI = seq(-1, -0.75, by = 0.05), nSim = 1000, alpha = 5e-08, plot.output = TRUE, plot.name = "GcE.pdf", seed = 1)
 }
 \keyword{powerGcE}
 \keyword{power}
