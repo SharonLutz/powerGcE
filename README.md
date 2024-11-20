@@ -1,4 +1,4 @@
-## powerGcE
+## 
 Examine the gene by environment interaction with a binary outcome and a normally distributed environmental exposure.
 
 ## Installation
